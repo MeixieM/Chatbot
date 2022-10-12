@@ -1,0 +1,242 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Hallo", "Yo!", "Help", "Okay", "Ok", "Hola"
+      ],
+      "responses": [
+        "Hey! How are you? I am a Covid-19 Chatbot. How may I help you?", "Hi there! I am a Covid-19 Chatbot. How can I help?", "Hi, how can I assist you? I am a Covid-19 Chatbot. ", "Hi! I am a Covid-19 Chatbot. What can I assist you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later", "Have a nice day", "Bye bye", "Bye stay safe"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Awesome, ", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"
+        ]
+    },
+    {
+      "tag": "developer",
+      "patterns": [
+        "Who is your developer?",
+        "Who created you?",
+        "Do you know Alex Fernan Mercado?",
+        "Alex Fernan Mercado"
+      ],
+      "responses": [
+        "My Creator is Alex Fernan Mercado",
+        "Alex Fernan Mercado Created me",
+        "My developer is Alex Fernan Mercado"
+      ]
+    },
+    {"tag": "Question",
+         "patterns": ["What is Coronavirus?","Novel coronavirus", "what is COVID-19","Explain corona virus", "Tell me about covid", "tell me about corona virus", ""],
+         "responses": ["COVID-19 is a disease caused by a new strain of coronavirus. 'CO' stands for corona, 'VI' for virus, and \n 'D' for disease. Formerly, this disease was referred to as '2019 novel coronavirus' or '2019-nCoV.'COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of 'viral pneumonia' in Wuhan, People’s Republic of China."]
+
+    },
+    {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Can you please explain more"]
+        },
+    {"tag": "options",
+         "patterns": ["How you could help me", "What you can do", "What help you provide", "How you can be helpful", "Help me", "What is your purpose","What support is offered"],
+         "responses": ["I can clear your queries related to COVID-19.", "I can answer to your queries related to corona virus COVID-19"]
+
+        },
+    {"tag": "symptoms",
+         "patterns": ["what are the symptoms of COVID-19","symptoms","covid-19 symptoms", "coronavirus symptoms", "What should I do if I have COVID-19 symptoms and when should I seek medical care?"],
+         "responses": ["Most common symptoms:\n> Fever\n> Dry cough\n> Tiredness\n Less common symptoms:\n> Aches and pains\n> Sore throat\n> Diarrhoea\n> Conjunctivitis\n> Headache\n> Loss of taste or smell\n> A rash on skin, or discolouration of fingers or toes"]
+
+        },
+        {"tag": "Spread",
+         "patterns": ["coronavirus spread","spread","How does COVID-19 spread?"],
+         "responses": ["The disease can spread from person to person, People can catch corona virus from others who have the virus, through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.\n\nWHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings"]
+
+        },
+        {"tag": "protect",
+         "patterns": ["How do i protect myself from the spread and prevent the spread of COVID-19","prevent spread of corona","protection","How to protect","how to avoid corona virus", "Stay safe from corona virus", "How can I protect myself from getting infected?", "How can I avoid infecting others?", "How can we protect ourselves from getting infected of Covid-19"],
+         "responses": ["Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.\n\nYou can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:\n\n1.Regularly and thoroughly clean your hands with an alcohol-based hand \nrub or wash them with soap and water.\n\n2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n\n3.Avoid touching eyes, nose and mouth.\n\n4. Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n\n5. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.\n This will also protect you and help prevent spread of viruses and other infections.\nAvoid traveling to places where possible spread of COVID-19 and other viruses."]
+
+        },
+    {"tag": "visitplace",
+         "patterns": ["i visit a place","i travelled a place with corona cases area","corona area","how to protect visiting corona area"],
+         "responses": ["Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading\n\n1. Follow the guidance outlined above (Protection measures for everyone)\n2. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.\n    Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n    If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.This will also help to preventossible spread of COVID-19 and other viruses."]
+
+        },
+        {"tag": "likely",
+         "patterns": ["how likely am i to catch COVID-19","likely to catch"],
+         "responses": ["The risk depends on where you  are - and more specifically, whether there is a COVID-19 outbreak unfolding there.\n\nFor most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19.\n\nCOVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly."]
+
+        },
+        {"tag": "worry",
+         "patterns": ["Should I worry about COVID-19"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.\nWe can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.\n\nLearn more about how to protect yourself at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"]
+
+        },
+    {
+      "tag": "risk",
+      "patterns": [
+        "who is at risk of developing severe illness "
+      ],
+      "responses": [
+        "Similar to adults, children with obesity, diabetes, asthma or chronic lung disease, sickle cell disease, or immunosuppression can also be at increased risk for severe illness from COVID-19. One way to protect the health of children is to ensure that all adults in a household are fully vaccinated against COVID-19."
+      ]
+    },
+    {
+      "tag": "infection",
+      "patterns": [
+        "When is a person infectious?",
+        "How long are you infectious when you have coronavirus?"
+      ],
+      "responses": [
+        "The infectious period may begin around two days before symptoms appear, but people are most infectious during the symptomatic period, even if symptoms are mild and non-specific. The infectious period is estimated to last for eight to 10 days in moderate cases, and up to two weeks on average in severe cases."
+      ]
+    },
+{
+	"tag": "long",
+	"patterns": [
+      "How long does protection from vaccines or antibodies last?", "How long it can protect me from COVID-19"
+    ],
+	"responses": [
+      "It's too early to know if COVID-19 vaccines will provide long-term protection. Additional research is needed to answer this question. Available data suggests that most people who recover from COVID-19 develop an immune response that provides at least some protection against reinfection – although we're still learning how strong this protection is, and how long it lasts. It's also not yet clear how many doses of a COVID-19 vaccine will be needed. Most COVID-19 vaccines being tested now are using two dose regimens."
+]
+},
+    {
+	"tag": "healthcare",
+	"patterns": ["Whom should healthcare providers notify if they suspect a patient  has Covid-19"],
+	"responses": [
+	   "Healthcare providers should immediately notify infection control personnel at their facility if they suspect COVID-19 in a patient. If a patient tests positive, providers should report that positive result to their local/state health department.",
+	   "Health care workers (HCW) living with a person suspected of having COVID-19, or who have been exposed to a patient, co-worker, or social contact with COVID-19, have expressed concerns regarding selfquarantine and exclusion from work. Exclusion of exposed asymptomatic health care professionals from work for prolonged periods might impact health care system capacity"
+]
+},
+     {
+	"tag": "travel",
+	"patterns": ["What precautions should I take if I need to travel?", "It is safe to travel?"],
+	"responses": [
+	   "Check the destination country for policies on what kind of travel is allowed and what measures are in place for screening, testing and quarantine. Avoid or postpone travel. Do not travel if you have a confirmed diagnosis of COVID-19 or have had close contact with a confirmed COVID-19 case. Take precautions; Wash or sanitize your hands frequently, avoid touching your eyes, mouth and nose, cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, stay more than 1 meter (3 feet) away from other people, follow proper food hygiene practices and wear a fabric mask, especially when you can't physically distance, and follow applicable national or local guidelines. \nPeople aged 60 and over and those with underlying health conditions should try to postpone travel, or take special precautions and wear a medical face mask continuously throughout the travel."
+
+ ]
+    },
+     {
+	"tag": "distancing",
+	"patterns": ["What is social distancing", "Does social distancing helps to avoid the virus"],
+	"responses": [
+	   "Social distancing is a term that's applied to actions taken by public health officials to stop or slow the spread of a highly contagious disease. Social distancing measures restrict when and where people can gather in order to stop or slow the spread of infectious diseases. Such measures include limiting large groups of people coming together, closing buildings and canceling events, as well as deliberately increasing the physical space between people to avoid contracting an illness. Staying at least 6 feet away from other people lessens your chance of catching this virus."
+]
+},
+    {
+	"tag": "sanitizer",
+	"patterns": ["Is hand sanitizer effective against COVID-19?", "Can I make my own hand sanitizer?", "Is hand sanitizer enough to prevent the spread of COVID-19?"],
+	"responses": [
+	   "If used properly, alcohol-based hand sanitizer with at least 60% alcohol is an effective way to kill the COVID-19 virus but the best way to prevent the spread of infections and decrease the risk of getting sick is by washing your hands with plain soap and water for at least 20 seconds is essential. If soap and water are not available, CDC recommends consumers use an alcohol-based hand sanitizer that contains at least 60% alcohol. The FDA does not recommend that consumers make their own hand sanitizer. If made incorrectly, hand sanitizer can be ineffective, and there have been reports of skin burns from homemade hand sanitizer. "
+]
+},
+    {
+	"tag": "smoke",
+	"patterns": ["Am I at risk for serious complications from COVID-19 if I smoke cigarettes? ", "If I vape tobacco or nicotine am I at risk for complications from COVID-19?"],
+	"responses": [
+	   "Data shows that when compared to never smokers, cigarette smoking increases the risk of more severe illness from COVID-19, which could result in hospitalization, the need for intensive care, or even death. E-cigarette use can expose the lungs to toxic chemicals, but whether those exposures increase the risk of COVID-19 or the severity of COVID-19 outcomes is not known. However, many e-cigarette users are current or former smokers, and cigarette smoking increases the risk of respiratory infections, including pneumonia.", "Smoking cigarettes can cause inflammation and cell damage throughout the body, and can weaken your immune system, making it less able to fight off disease."
+]
+},
+     {
+	"tag": "pet",
+	"patterns": ["Can I give my pet COVID-19?", "Can I get COVID-19 from my pet or other animals?", "Should I get my pet tested for COVID-19?"],
+	"responses": [
+	   "There is a very small number of pets around the world reported to be infected with the virus that causes COVID-19 after having contact with a person with COVID-19. Based on the limited information currently available, the risk of animals spreading COVID-19 to people is considered low. Talk to your veterinarian if your pet gets sick or if you have any concerns about your pet’s health. Routine testing of pets for COVID-19 is not recommended at this time. If your pet is sick, consult your veterinarian. ", "Diagnostic tests for animals are regulated differently than those for humans. The FDA does not require approval or clearance of a 510(k), PMA, or any other pre-market submission for devices, including diagnostic tests, intended for animal use."
+]
+},
+    {
+"tag":"children",
+"patterns": [
+  "Should children wear a mask?", "Does my child need to wear a mask?"
+],
+"responses": [
+  "Children aged 5 years and under should not be required to wear masks. This is based on the safety and overall interest of the child and the capacity to appropriately use a mask with minimal assistance.  WHO and UNICEF advise that children aged 12 and over should wear a mask under the same conditions as adults, in particular when they cannot guarantee at least a 1-metre distance from others and there is widespread transmission in the area."
+]
+},
+    {
+      "tag": "facemask",
+      "patterns": [
+        "Should I wear a face covering or mask when I go out in public?", "Should I wear face covering?", "Should I wear a mask", "is it necessary to wear mask"
+      ],
+      "responses": [
+        "Your mask helps protect those around you.\nMasks are a simple barrier to help prevent your respiratory droplets from reaching others. Studies show that masks reduce the spray of droplets when worn over the nose and mouth. You should wear a mask, even if you do not feel sick."
+      ]
+    },
+    {
+    "tag": "drinkingwater",
+    "patterns":[
+      "Can the COVID-19 survive in drinking water?"
+    ],
+    "responses": [
+      "Currently, there is no evidence about the survival of the COVID-19 virus in drinking-water or sewage."
+    ]
+},
+    {
+      "tag": "available",
+      "patterns": [
+        "Are there any vaccines or other medical products available to prevent COVID-19?", "What are the vaccines available"
+      ],
+      "responses": [
+        "On December 11, 2020 the FDA issued the first Emergency Use Authorization for a COVID-19 vaccine. On December 18, 2020, the FDA authorized a second COVID-19 vaccine, and on February 27, 2021 a third COVID-19 vaccine. Additionally, the FDA is working with other vaccine developers, researchers, and manufacturers to help expedite the development and availability of medical products such as additional vaccines, monoclonal antibodies, and other drugs to prevent or treat COVID-19."
+      ]
+    },
+     {
+"tag":"test",
+"patterns": ["How are people tested for COVID-19?", "How people get tested?"],
+"responses": ["Most tests to diagnose COVID-19 require a swab of your nose, or the part of the throat behind the nose, by a health care provider. Some tests use saliva (spit) or other types of samples. For most FDA-authorized tests, the swab or sample must be sent to a lab for analysis. Some tests allow the patient to collect the sample at home and then send it to a lab for analysis. Some tests can be analyzed at the point-of-care, such as in a doctor’s office or health clinic."]
+
+    },
+  {
+      "tag": "coin",
+      "patterns": [
+        "What is the risk of getting COVID-19 from coins and banknotes?"
+      ],
+      "responses": [
+        "Like all objects, coins and banknotes can potentially be contaminated with SARS-CoV-2 through respiratory droplets from an infectious person. There is currently no evidence either to confirm or rule out SARS-CoV-2 transmission via coins or banknotes. As with doorknobs and handrails in public places, coins and banknotes are touched by large numbers of people.coronaviruses can survive more easily on a stainless steel surface (e.g. door handles) than on our cotton banknotes, with survival rates approximately 10 to 100 times higher in the first few hours after contamination. Other analyses indicate that it is much more difficult for a virus to be transferred from porous surfaces such as cotton banknotes than from smooth surfaces like plastic."
+      ]
+    },
+    {
+      "tag": "antibiotics",
+      "patterns": [
+        "Are antibiotics effective in curing or treating COVID-19","Are antibiotics effective", "Does antibiotics  treats covid 19", "treatment of covid by antibiotics"
+        ],
+        "responses": [
+          "Antibiotics do not work against viruses. Some people who become ill with COVID-19 can also develop a bacterial infection as a complication. In this case, antibiotics may be recommended by a health care provider. There is currently no licensed medication to cure COVID-19."
+        ]
+    },
+    {
+      "tag": "cure",
+      "patterns": [
+        "Are there any medicines or therapies that can cure COVID-19", "medicines that can cure covid-19"
+        ],
+        "responses": [
+          "In October 2020, the FDA approved the antiviral drug remdesivir to treat COVID-19. The drug may be used to treat adults and children ages 12 and older and weighing at least 88 pounds, who have been hospitalized for COVID-19. Clinical trials suggest that in these patients, remdesivir may modestly speed up recovery time."
+        ]
+    },
+     {
+      "tag": "coronaviruses",
+      "patterns": [
+        "What are coronaviruses?"
+        ],
+        "responses": [
+          "Coronaviruses are a large family of viruses causing a range of illnesses, from the common cold to more serious infections such as those caused by Middle East Respiratory Syndrome-related Coronavirus (MERS-CoV) and Severe Acute Respiratory Syndrome-related Coronavirus (SARS-CoV). Coronavirus can also cause a variety of diseases in farm animals and domesticated pets."
+        ]
+    },
+    {
+      "tag": "SARS",
+      "patterns": [
+        "Is COVID-19 the same with Severe Acute Respiratory Syndrome (SARS)?", "SARS"
+        ],
+        "responses": [
+          "No. The COVID-19 virus and the SARS-CoV are both coronaviruses and are genetically related to each other, but they are different. SARS is more fatal and deadly but less infectious than COVID-19."
+        ]
+    }
+  ]
+}

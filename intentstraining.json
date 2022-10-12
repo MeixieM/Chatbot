@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "protect",
+      "patterns": [
+        "How can I protect myself from getting infected?",
+        "How can I avoid infecting others?"
+      ],
+      "responses": [
+        " Wash your hands frequently. Avoid touching your eyes, mouth and nose. Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. Avoid crowded places. Stay at home if you feel unwell - even with a slight fever and cough. If you have a fever, cough and difficulty breathing, seek medical care early - but call by phone first",
+        "If you have any symptoms that are compatible with COVID-19, you should stay home and follow local recommendations on contacting your healthcare provider for advice about testing, isolation from others and medical care. "
+      ]
+    },
+    {
+      "tag": "infection",
+      "patterns": [
+        "When is a person infectious?",
+        "How long are you infectious when you have coronavirus?"
+      ],
+      "responses": [
+        "The infectious period may begin around two days before symptoms appear, but people are most infectious during the symptomatic period, even if symptoms are mild and non-specific. The infectious period is estimated to last for eight to 10 days in moderate cases, and up to two weeks on average in severe cases."
+      ]
+    },
+{
+	"tag": "long",
+	"patterns": [
+      "How long does protection from vaccines or antibodies last?", "How long it can protect me from COVID-19"
+    ],
+	"responses": [
+      "It’s too early to know if COVID-19 vaccines will provide long-term protection. Additional research is needed to answer this question. Available data suggests that most people who recover from COVID-19 develop an immune response that provides at least some protection against reinfection – although we’re still learning how strong this protection is, and how long it lasts. It’s also not yet clear how many doses of a COVID-19 vaccine will be needed. Most COVID-19 vaccines being tested now are using two dose regimens."
+]
+},
+    {
+	"tag": "healthcare",
+	"patterns": ["Whom should healthcare providers notify if they suspect a patient  has Covid-19"],
+	"responses": [
+	   "Healthcare providers should immediately notify infection control personnel at their facility if they suspect COVID-19 in a patient. If a patient tests positive, providers should report that positive result to their local/state health department.",
+	   "Health care workers (HCW) living with a person suspected of having COVID-19, or who have been exposed to a patient, co-worker, or social contact with COVID-19, have expressed concerns regarding selfquarantine and exclusion from work. Exclusion of exposed asymptomatic health care professionals from work for prolonged periods might impact health care system capacity"
+
+]
+
+
+},
+    {
+	"tag": "travel",
+	"patterns": ["What precautions should I take if I need to travel?", "It is safe to travel?"],
+	"responses": [
+	   "Check the destination country for policies on what kind of travel is allowed and what measures are in place for screening, testing and quarantine. Avoid or postpone travel. Do not travel if you have a confirmed diagnosis of COVID-19 or have had close contact with a confirmed COVID-19 case. Take precautions; Wash or sanitize your hands frequently, avoid touching your eyes, mouth and nose, cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, stay more than 1 meter (3 feet) away from other people, follow proper food hygiene practices and wear a fabric mask, especially when you can't physically distance, and follow applicable national or local guidelines.", "People aged 60 and over and those with underlying health conditions should try to postpone travel, or take special precautions and wear a medical face mask continuously throughout the travel."
+
+ ]
+    },
+
+    {
+	"tag": "sanitizer",
+	"patterns": ["Is hand sanitizer effective against COVID-19?", "Can I make my own hand sanitizer?", "Is hand sanitizer enough to prevent the spread of COVID-19?"],
+	"responses": [
+	   "If used properly, alcohol-based hand sanitizer with at least 60% alcohol is an effective way to kill the COVID-19 virus but the best way to prevent the spread of infections and decrease the risk of getting sick is by washing your hands with plain soap and water for at least 20 seconds is essential. If soap and water are not available, CDC recommends consumers use an alcohol-based hand sanitizer that contains at least 60% alcohol. The FDA does not recommend that consumers make their own hand sanitizer. If made incorrectly, hand sanitizer can be ineffective, and there have been reports of skin burns from homemade hand sanitizer. "
+
+]
+
+},
+    {
+	"tag": "smoke",
+	"patterns": ["Am I at risk for serious complications from COVID-19 if I smoke cigarettes? ", "If I vape tobacco or nicotine am I at risk for complications from COVID-19?"],
+	"responses": [
+	   "Yes. Data shows that when compared to never smokers, cigarette smoking increases the risk of more severe illness from COVID-19, which could result in hospitalization, the need for intensive care, or even death. E-cigarette use can expose the lungs to toxic chemicals, but whether those exposures increase the risk of COVID-19 or the severity of COVID-19 outcomes is not known. However, many e-cigarette users are current or former smokers, and cigarette smoking increases the risk of respiratory infections, including pneumonia.", "Smoking cigarettes can cause inflammation and cell damage throughout the body, and can weaken your immune system, making it less able to fight off disease."
+]
+},
+ {
+	"tag": "pet",
+	"patterns": ["Can I give my pet COVID-19?”, “Can I get COVID-19 from my pet or other animals?", "Should I get my pet tested for COVID-19?"],
+	"responses": [
+	   "There is a very small number of pets around the world reported to be infected with the virus that causes COVID-19 after having contact with a person with COVID-19. Based on the limited information currently available, the risk of animals spreading COVID-19 to people is considered low. Talk to your veterinarian if your pet gets sick or if you have any concerns about your pet’s health. Routine testing of pets for COVID-19 is not recommended at this time. If your pet is sick, consult your veterinarian. ", "Diagnostic tests for animals are regulated differently than those for humans. The FDA does not require approval or clearance of a 510(k), PMA, or any other pre-market submission for devices, including diagnostic tests, intended for animal use."
+]
+},
+    {
+      "tag": "coin",
+      "patterns": [
+        "What is the risk of getting COVID-19 from coins and banknotes?"
+      ],
+      "response": [
+        "Like all objects, coins and banknotes can potentially be contaminated with SARS-CoV-2 through respiratory droplets from an infectious person. There is currently no evidence either to confirm or rule out SARS-CoV-2 transmission via coins or banknotes. As with doorknobs and handrails in public places, coins and banknotes are touched by large numbers of people.coronaviruses can survive more easily on a stainless steel surface (e.g. door handles) than on our cotton banknotes, with survival rates approximately 10 to 100 times higher in the first few hours after contamination. Other analyses indicate that it is much more difficult for a virus to be transferred from porous surfaces such as cotton banknotes than from smooth surfaces like plastic."
+      ]
+    },
+    {
+"tag":"children",
+"patterns": [
+  "Should children wear a mask?", "Does my child need to wear a mask?"
+],
+"responses": [
+  "Children aged 5 years and under should not be required to wear masks. This is based on the safety and overall interest of the child and the capacity to appropriately use a mask with minimal assistance.  WHO and UNICEF advise that children aged 12 and over should wear a mask under the same conditions as adults, in particular when they cannot guarantee at least a 1-metre distance from others and there is widespread transmission in the area."
+]
+},
+    {
+"tag": "drinking water",
+"patterns":["Can the COVID-19 survive in drinking water?"],
+"response": ["Currently, there is no evidence about the survival of the COVID-19 virus in drinking-water or sewage."]
+},
+    {
+      "tag": "available vaccines",
+      "patterns": [
+        "Are there any vaccines or other medical products available to prevent COVID-19?"
+      ],
+      "response": [
+        "Yes. On December 11, 2020 the FDA issued the first Emergency Use Authorization for a COVID-19 vaccine. On December 18, 2020, the FDA authorized a second COVID-19 vaccine, and on February 27, 2021 a third COVID-19 vaccine. Additionally, the FDA is working with other vaccine developers, researchers, and manufacturers to help expedite the development and availability of medical products such as additional vaccines, monoclonal antibodies, and other drugs to prevent or treat COVID-19."
+      ]
+    },
+    {
+"tag":"test",
+"patterns": ["How are people tested for COVID-19?", "How people get tested?"],
+"response": ["Most tests to diagnose COVID-19 require a swab of your nose, or the part of the throat behind the nose, by a health care provider. Some tests use saliva (spit) or other types of samples. For most FDA-authorized tests, the swab or sample must be sent to a lab for analysis. Some tests allow the patient to collect the sample at home and then send it to a lab for analysis. Some tests can be analyzed at the point-of-care, such as in a doctor’s office or health clinic."]
+
+    },
+    {
+      "tag": "coronaviruses",
+      "patterns": [
+        "What are coronaviruses?"
+        ],
+        "responses": [
+          "Coronaviruses are a large family of viruses causing a range of illnesses, from the common cold to more serious infections such as those caused by Middle East Respiratory Syndrome-related Coronavirus (MERS-CoV) and Severe Acute Respiratory Syndrome-related Coronavirus (SARS-CoV). Coronavirus can also cause a variety of diseases in farm animals and domesticated pets."
+        ]
+    },
+    {
+      "tag": "SARS",
+      "patterns": [
+        "Is COVID-19 the same with Severe Acute Respiratory Syndrome (SARS)?", "SARS"
+        ],
+        "responses": [
+          "No. The COVID-19 virus and the SARS-CoV are both coronaviruses and are genetically related to each other, but they are different. SARS is more fatal and deadly but less infectious than COVID-19."
+        ]
+    }
+  ]
+}
